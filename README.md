@@ -1,1 +1,9 @@
-# Digital_signals_project
+# Emotion Recognition
+
+## Video: Facial Emotion Recognition
+
+## Audio: Speech Emotion Recognition
+
+## Full Clip
+
+# Face Image Retrieval
