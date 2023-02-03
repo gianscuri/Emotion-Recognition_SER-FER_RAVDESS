@@ -1,5 +1,10 @@
 # Datasets
-Datasets
+RAVDESS
+RAVDESS_audio
+RAVDESS_frames
+RAVDESS_frames_black
+RAVDESS_frames_face_BW
+CelebA
 Models
 
 # Byte-compiled / optimized / DLL files
