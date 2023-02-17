@@ -38,7 +38,11 @@ Emotion-Recognition_SER-FER_RAVDESS
 ```
 
 ## Execution schema
-To replicate this project (training and inference):
+**To classify emotions** (using our trained model):
+1. Copy your clips in `DEMO/Examples`
+2. Run `ER_FullClip_DEMO.ipynb` in DEMO folder
+
+**To replicate this project** (training and inference):
 1. Download the speech clips of [RAVDESS](https://zenodo.org/record/1188976#.Y-9hqHbMK38) dataset and save it in `Datasets/RAVDESS` folder
 2. Train video and audio models
     1. Video Stream: extract frames with `ER_VideoStream_FramesExtraction.ipynb` (multiple type of frames are generated -> best are "224x224 only faces BW"), train model with `ER_VideoStream_FullFrame.ipynb` and `ER_VideoStream_FaceOnly.ipynb` (depending on the frames generated) and test the results with `ER_VideoStream_Test.ipynb`
