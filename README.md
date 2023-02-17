@@ -49,3 +49,7 @@ Emotion-Recognition_SER-FER_RAVDESS
     2. Audio Stream: use `ER_AudioStream_1D.ipynb` and `ER_AudioStream_2D.ipynb` to train models (2D works better)
 3. Use `ER_FullClip_Test.ipynb` to assess global performance
 4. Use `ER_FullClip_DEMO.ipynb` in DEMO folder to classify videos with the trained models.
+
+## DEMO
+https://user-images.githubusercontent.com/94122042/219646582-0849650c-1d62-458f-8bef-5fd1273108b1.mp4
+
