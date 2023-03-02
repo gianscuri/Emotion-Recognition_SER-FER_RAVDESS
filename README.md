@@ -6,6 +6,8 @@ In this project we trained the models on speech clips of [RAVDESS](https://zenod
 
 **More details** about the processing and architecture in `Slides_Emotion-Recognition.pdf`. Dimostrative video and deployed model in the `DEMO` folder.
 
+![Screenshot 2023-03-02 170340](https://user-images.githubusercontent.com/94122042/222483497-e4c6038c-60dd-42a0-853c-22e873bb231c.png)
+
 ## Repo structure
 ```
 Emotion-Recognition_SER-FER_RAVDESS
