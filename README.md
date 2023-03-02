@@ -25,15 +25,16 @@ Emotion-Recognition_SER-FER_RAVDESS
 ├───Other
 │   └───haarcascade_frontalface_default.xml
 ├───Plots
-├───ER_AudioStream_1D.ipynb
-├───ER_AudioStream_2D.ipynb
-├───ER_FullClip_Test.ipynb
-├───ER_VideoStream_FaceOnly.ipynb
-├───ER_VideoStream_FramesExtraction.ipynb
-├───ER_VideoStream_FullFrame.ipynb
-├───ER_VideoStream_Test.ipynb
-├───Slides_Emotion-Recognition.pdf
+├───StreamAudio_1D.ipynb
+├───StreamAudio_2D.ipynb
+├───FullClip_Test.ipynb
+├───StreamVideo_FaceOnly.ipynb
+├───StreamVideo_FramesExtraction.ipynb
+├───StreamVideo_FullFrame.ipynb
+├───StreamVideo_Test.ipynb
+├───Project_Slides.pdf
 ├───README.md
+├───LICENSE.md
 └───requirements.txt
 ```
 
@@ -45,9 +46,9 @@ Emotion-Recognition_SER-FER_RAVDESS
 **To replicate this project** (training and inference):
 1. Download the speech clips of [RAVDESS](https://zenodo.org/record/1188976#.Y-9hqHbMK38) dataset and save it in `Datasets/RAVDESS` folder
 2. Train video and audio models
-    1. Video Stream: extract frames with `ER_VideoStream_FramesExtraction.ipynb` (multiple type of frames are generated -> best are "224x224 only faces BW"), train model with `ER_VideoStream_FullFrame.ipynb` and `ER_VideoStream_FaceOnly.ipynb` (depending on the frames generated) and test the results with `ER_VideoStream_Test.ipynb`
-    2. Audio Stream: use `ER_AudioStream_1D.ipynb` and `ER_AudioStream_2D.ipynb` to train models (2D works better)
-3. Use `ER_FullClip_Test.ipynb` to assess global performance
+    1. Video Stream: extract frames with `StreamVideo_FramesExtraction.ipynb` (multiple type of frames are generated -> best are "224x224 only faces BW"), train model with `StreamVideo_FullFrame.ipynb` and `StreamVideo_FaceOnly.ipynb` (depending on the frames generated) and test the results with `StreamVideo_Test.ipynb`
+    2. Audio Stream: use `StreamAudio_1D.ipynb` and `StreamAudio_2D.ipynb` to train models (2D works better)
+3. Use `FullClip_Test.ipynb` to assess global performance
 4. Use `ER_FullClip_DEMO.ipynb` in DEMO folder to classify videos with the trained models.
 
 ## DEMO
